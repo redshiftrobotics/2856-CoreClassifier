@@ -1,0 +1,11 @@
+[sframe]
+version=0
+num_segments=0
+num_columns=2
+nrows=60
+[column_names]
+0000=__image_features__
+0001=possition
+[column_files]
+0000=m_30cb915b7f9a374d.sidx:0
+0001=m_30cb915b7f9a374d.sidx:1
