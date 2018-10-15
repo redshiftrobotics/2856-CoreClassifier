@@ -1,0 +1,9 @@
+[submodule "CoreDetection/raccoon_dataset"]
+	path = CoreDetection/raccoon_dataset
+	url = https://github.com/experiencor/raccoon_dataset
+[submodule "CoreDetection/generator/simple_image_annotator"]
+	path = CoreDetection/generator/simple_image_annotator
+	url = https://github.com/sgp715/simple_image_annotator
+[submodule "CoreDetection/generator/labelImg"]
+	path = CoreDetection/generator/labelImg
+	url = https://github.com/tzutalin/labelImg
