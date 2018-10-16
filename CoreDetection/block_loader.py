@@ -1,5 +1,5 @@
 import turicreate as tc
-from xml.dom import minidom
+import xml.etree.ElementTree as ET
 import glob
 import os
 import math
@@ -7,29 +7,37 @@ import math
 unsorted_annotations = []
 
 for file in glob.glob('generator/annotations/*.xml'):
-    xml = minidom.parse(file)
+    tree = ET.parse(file)
+    root = tree.getroot()
 
-    # TODO clean this up
-    width = int(xml.getElementsByTagName('width')[0].firstChild.data)
-    height = int(xml.getElementsByTagName('height')[0].firstChild.data)
+    object_props = []
+    for member in root.findall('object'):
+        label = member[0].text
 
-    xmin = int(xml.getElementsByTagName('xmin')[0].firstChild.data)
-    ymin = int(xml.getElementsByTagName('ymin')[0].firstChild.data)
+        xmin = int(member[5][0].text)
+        ymin = int(member[5][1].text)
+        xmax = int(member[5][2].text)
+        ymax = int(member[5][3].text)
 
-    image_name = str(xml.getElementsByTagName(
-        'filename')[0].firstChild.data)
+        width = xmax - xmin
+        height = ymax - ymin
 
-    x = xmin + math.floor(width / 2)
-    y = ymin + math.floor(height / 2)
+        image_name = root.find('filename').text
 
-    props = {'label': 'block', 'type': 'rectangle', 'filename': image_name}
-    props['coordinates'] = {'height': height, 'width': width, 'x': x, 'y': y}
+        x = xmin + math.floor(width / 2)
+        y = ymin + math.floor(height / 2)
 
-    unsorted_annotations.append([props])
+        props = {'label': label, 'type': 'rectangle', 'filename': image_name}
+        props['coordinates'] = {'height': height,
+                                'width': width, 'x': x, 'y': y}
+
+        object_props.append(props)
+
+    unsorted_annotations.append(object_props)
 
 data = tc.image_analysis.load_images('generator/data')
 
-data['label'] = data['path'].apply(lambda _: 'block')
+# data['label'] = data['path'].apply(lambda _: 'block')
 
 # the data is in no particular order, so we have to loop it to match
 # we also have the 'misc' images, which won't have an annotation, to skip

@@ -7,3 +7,6 @@
 [submodule "CoreDetection/generator/labelImg"]
 	path = CoreDetection/generator/labelImg
 	url = https://github.com/tzutalin/labelImg
+[submodule "CoreTensorFlow/models"]
+	path = CoreTensorFlow/models
+	url = git@github.com:tensorflow/models.git
