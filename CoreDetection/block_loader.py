@@ -37,8 +37,6 @@ for file in glob.glob('generator/annotations/*.xml'):
 
 data = tc.image_analysis.load_images('generator/data')
 
-# data['label'] = data['path'].apply(lambda _: 'block')
-
 # the data is in no particular order, so we have to loop it to match
 # we also have the 'misc' images, which won't have an annotation, to skip
 annotations = []

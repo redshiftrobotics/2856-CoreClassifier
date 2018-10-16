@@ -9,7 +9,7 @@ def create_and_save():
 
     # TODO max iterations should be way heigher
     model = tc.object_detector.create(
-        train_data, feature='image', annotations='annotations', max_iterations=2000)
+        train_data, feature='image', annotations='annotations', max_iterations=200)
 
     preds = model.predict(test_data)
 
