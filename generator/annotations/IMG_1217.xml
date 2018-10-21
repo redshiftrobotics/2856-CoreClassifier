@@ -1,0 +1,36 @@
+<annotation>
+    <folder>Blocks</folder>
+    <filename>IMG_1217.JPG</filename>
+    <size>
+        <width>480</width>
+        <height>360</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>ball</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <occluded>0</occluded>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>1</xmin>
+            <ymin>126</ymin>
+            <xmax>68</xmax>
+            <ymax>216</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>ball</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <occluded>0</occluded>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>305</xmin>
+            <ymin>149</ymin>
+            <xmax>396</xmax>
+            <ymax>222</ymax>
+        </bndbox>
+    </object>
+</annotation>

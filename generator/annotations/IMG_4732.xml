@@ -1,0 +1,36 @@
+<annotation>
+    <folder>Blocks</folder>
+    <filename>IMG_4732.JPG</filename>
+    <size>
+        <width>480</width>
+        <height>360</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>ball</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <occluded>0</occluded>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>375</xmin>
+            <ymin>70</ymin>
+            <xmax>432</xmax>
+            <ymax>120</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>ball</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <occluded>0</occluded>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>130</xmin>
+            <ymin>86</ymin>
+            <xmax>199</xmax>
+            <ymax>132</ymax>
+        </bndbox>
+    </object>
+</annotation>

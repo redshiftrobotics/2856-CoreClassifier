@@ -10,3 +10,9 @@
 [submodule "CoreTensorFlow/models"]
 	path = CoreTensorFlow/models
 	url = git@github.com:tensorflow/models.git
+[submodule "CoreDetection/onnx-tensorflow"]
+	path = CoreDetection/onnx-tensorflow
+	url = git@github.com:onnx/onnx-tensorflow.git
+[submodule "CoreDetection/turicreate"]
+	path = CoreDetection/turicreate
+	url = git@github.com:zoecarver/turicreate.git

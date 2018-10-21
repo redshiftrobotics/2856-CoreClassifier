@@ -1,0 +1,36 @@
+<annotation>
+    <folder>Blocks</folder>
+    <filename>IMG_5055.JPG</filename>
+    <size>
+        <width>480</width>
+        <height>360</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>ball</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <occluded>0</occluded>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>212</xmin>
+            <ymin>108</ymin>
+            <xmax>283</xmax>
+            <ymax>167</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>block</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <occluded>0</occluded>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>3</xmin>
+            <ymin>187</ymin>
+            <xmax>40</xmax>
+            <ymax>279</ymax>
+        </bndbox>
+    </object>
+</annotation>

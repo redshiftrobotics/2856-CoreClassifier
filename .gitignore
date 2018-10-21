@@ -1,4 +1,3 @@
 data.sframe
-CoreDetection/generator
-CoreDetection/model/*
-CoreDetection/m.model/objects.bin
+model/*
+m.model/objects.bin

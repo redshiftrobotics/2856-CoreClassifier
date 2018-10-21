@@ -1,0 +1,36 @@
+<annotation>
+    <folder>Blocks</folder>
+    <filename>IMG_7712.JPG</filename>
+    <size>
+        <width>480</width>
+        <height>360</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>ball</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <occluded>0</occluded>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>341</xmin>
+            <ymin>124</ymin>
+            <xmax>420</xmax>
+            <ymax>193</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>ball</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <occluded>0</occluded>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>89</xmin>
+            <ymin>137</ymin>
+            <xmax>164</xmax>
+            <ymax>208</ymax>
+        </bndbox>
+    </object>
+</annotation>

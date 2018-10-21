@@ -1,0 +1,36 @@
+<annotation>
+    <folder>Blocks</folder>
+    <filename>IMG_4004.JPG</filename>
+    <size>
+        <width>480</width>
+        <height>360</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>ball</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <occluded>0</occluded>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>40</xmin>
+            <ymin>105</ymin>
+            <xmax>125</xmax>
+            <ymax>171</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>block</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <occluded>0</occluded>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>302</xmin>
+            <ymin>44</ymin>
+            <xmax>363</xmax>
+            <ymax>100</ymax>
+        </bndbox>
+    </object>
+</annotation>

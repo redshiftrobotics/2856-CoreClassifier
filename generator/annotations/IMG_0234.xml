@@ -1,0 +1,36 @@
+<annotation>
+    <folder>Blocks</folder>
+    <filename>IMG_0234.JPG</filename>
+    <size>
+        <width>480</width>
+        <height>360</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>ball</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <occluded>0</occluded>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>72</xmin>
+            <ymin>2</ymin>
+            <xmax>151</xmax>
+            <ymax>62</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>block</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <occluded>0</occluded>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>351</xmin>
+            <ymin>3</ymin>
+            <xmax>411</xmax>
+            <ymax>61</ymax>
+        </bndbox>
+    </object>
+</annotation>

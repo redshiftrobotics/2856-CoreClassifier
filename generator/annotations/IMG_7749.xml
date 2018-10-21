@@ -1,0 +1,36 @@
+<annotation>
+    <folder>Blocks</folder>
+    <filename>IMG_7749.JPG</filename>
+    <size>
+        <width>480</width>
+        <height>360</height>
+        <depth>3</depth>
+    </size>
+    <segmented>0</segmented>
+    <object>
+        <name>ball</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <occluded>0</occluded>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>140</xmin>
+            <ymin>78</ymin>
+            <xmax>214</xmax>
+            <ymax>137</ymax>
+        </bndbox>
+    </object>
+    <object>
+        <name>block</name>
+        <pose>Unspecified</pose>
+        <truncated>0</truncated>
+        <occluded>0</occluded>
+        <difficult>0</difficult>
+        <bndbox>
+            <xmin>391</xmin>
+            <ymin>77</ymin>
+            <xmax>467</xmax>
+            <ymax>146</ymax>
+        </bndbox>
+    </object>
+</annotation>
