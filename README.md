@@ -8,7 +8,7 @@
 -   `generator/` generated images annotations and test data
 -   `App/` simple iOS app for real time evaluation of the model
 -   `model/` location of mlmodel
--   `m.model` turicreate model (download from releases)
+-   `m.model` turicreate model (download [here](https://drive.google.com/file/d/175a3Nsz4WlwidJI_RDRQKWAJ7qGKxe1e/view?usp=sharing))
 
 ## How to run
 
