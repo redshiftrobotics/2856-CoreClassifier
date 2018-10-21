@@ -10,8 +10,9 @@ def create_and_save():
     """
     create an object detection model with the images and annotations
     if it does not learn within 3 epochs it will terminate early
+    training the model takes ~30 minutes
     """
-    model = tc.object_detector.create( # TODO max iterations should be way heigher
+    model = tc.object_detector.create(
         train_data, feature='image', annotations='annotations', max_iterations=200)
 
     """
