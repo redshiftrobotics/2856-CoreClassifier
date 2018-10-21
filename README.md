@@ -26,15 +26,15 @@ run `load_data.py`
 
 ## Example output images
 
-![img](doc/example1)
-![img](doc/example2)
-![img](doc/example3)
-![img](doc/example4)
-![img](doc/example5)
-![img](doc/example6)
-![img](doc/example7)
-![img](doc/example8)
-![img](doc/example9)
+![img](doc/example1.png)
+![img](doc/example2.png)
+![img](doc/example3.png)
+![img](doc/example4.png)
+![img](doc/example5.png)
+![img](doc/example6.png)
+![img](doc/example7.png)
+![img](doc/example8.png)
+![img](doc/example9.png)
 
 ## Layers
 
