@@ -1,3 +1,4 @@
 data.sframe
 model/*
 m.model/objects.bin
+compressed_model.zip
